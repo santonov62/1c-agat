@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce23561c-af21-464c-b95f-8d500f41bef9">
+  <name>ИсходящаяКорреспонденция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исходящая корреспонденция</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <useOneCommand>true</useOneCommand>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ИсходящиеДокументы</picture>
+  </picture>
+  <content>Catalog.ИсходящиеДокументы</content>
+</mdclass:Subsystem>

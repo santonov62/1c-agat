@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="892a6180-5b00-4f4e-a00d-0b035c25f0f2">
+  <name>Предприятие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предприятие</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Здание</picture>
+  </picture>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Склад</content>
+  <content>Catalog.ВариантыНоменклатуры</content>
+  <content>Catalog.ДополнительныеСвойстваНоменклатуры</content>
+  <content>Catalog.Субконто</content>
+  <content>InformationRegister.ЗначенияСвойствНоменклатуры</content>
+  <content>Catalog.ВидыГрафиковРаботы</content>
+  <content>Catalog.Контрагенты</content>
+  <content>ExchangePlan.Филиалы</content>
+  <content>DataProcessor.ОбменДанными</content>
+  <content>CommonForm.ОбщиеНастройки</content>
+  <content>ExchangePlan.Отделения</content>
+  <content>DataProcessor.ОбменСОтделениями</content>
+  <content>InformationRegister.РегистрУдаленияФайлов</content>
+  <content>Catalog.ЛокальныеАкты</content>
+  <content>Catalog.Тематика</content>
+</mdclass:Subsystem>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fadce92-6474-4f13-9af1-a4e3ec5fc703">
+  <name>Шестеренка_3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шестеренка 3</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

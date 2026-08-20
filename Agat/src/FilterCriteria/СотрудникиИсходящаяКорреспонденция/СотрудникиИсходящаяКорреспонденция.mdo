@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b73fa37a-b0e5-4af2-9a39-d15cd4e8a3e5">
+  <producedTypes>
+    <listType typeId="d0f8a3fd-f47f-45e8-bf76-929b57cf1ddb" valueTypeId="b25a8504-c7f7-4022-aebd-e4e0e4cd0a06"/>
+    <managerType typeId="68463657-6205-4306-9a35-43e1aa7725e3" valueTypeId="d9b7f566-f58b-4ece-bcc1-4537455c7bc1"/>
+  </producedTypes>
+  <name>СотрудникиИсходящаяКорреспонденция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исходящая корреспонденция</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Сотрудники</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Catalog.ИсходящиеДокументы.Attribute.ОтветственныйИсполнитель</content>
+  <defaultForm>FilterCriterion.СотрудникиИсходящаяКорреспонденция.Form.ФормаСписка</defaultForm>
+  <forms uuid="892d055f-1031-46c9-80b2-aac17ad00efb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:FilterCriterion>

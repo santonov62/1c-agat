@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9ad9912-e625-451a-9f31-ba18398b3edb">
+  <producedTypes>
+    <listType typeId="a87def86-de84-4fd1-8a29-f0e7be0d0f8a" valueTypeId="00606e81-baba-4f66-8506-78f6e100d60a"/>
+    <managerType typeId="cf3da9f1-99fb-44b2-9442-fe779922a800" valueTypeId="fa5f2845-2f51-405c-9801-a104ddbc085c"/>
+  </producedTypes>
+  <name>СотрудникиЭтапыИсполненияДоговора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договора</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Сотрудники</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Catalog.Договора.TabularSection.СоставИсполнителей.Attribute.Сотрудник</content>
+  <defaultForm>FilterCriterion.СотрудникиЭтапыИсполненияДоговора.Form.ФормаСписка</defaultForm>
+  <forms uuid="9c261cff-5966-4ffa-9264-cfd3a6547682">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:FilterCriterion>

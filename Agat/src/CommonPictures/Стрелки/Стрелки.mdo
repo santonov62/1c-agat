@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8898af66-d5e1-446d-81be-32e4ea52bb7f">
+  <name>Стрелки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стрелки</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

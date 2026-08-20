@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="805abf72-cd30-4d17-b958-c64556c3d135">
+  <name>ДоговораСубподряда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договора субподряда</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <useOneCommand>true</useOneCommand>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Картинка_папки</picture>
+  </picture>
+  <content>Catalog.ДоговораСубподряда</content>
+</mdclass:Subsystem>

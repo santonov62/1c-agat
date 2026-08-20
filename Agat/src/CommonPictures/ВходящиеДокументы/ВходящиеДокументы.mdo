@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6550a576-3548-406d-a175-5aa8eabe2d43">
+  <name>ВходящиеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Входящие документы</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

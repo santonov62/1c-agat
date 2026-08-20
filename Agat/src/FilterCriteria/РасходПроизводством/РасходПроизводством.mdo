@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc0e7bc9-9f09-447d-a5ec-6216831e0ee5">
+  <producedTypes>
+    <listType typeId="f2d75946-097e-4720-a3ae-9b07775d6263" valueTypeId="b4a39041-0c3d-429e-8c4f-30e045260b36"/>
+    <managerType typeId="44afbdf2-c102-41de-b8a9-b702677d234f" valueTypeId="d11d5618-3349-4d7b-8afe-7f4662d8d13f"/>
+  </producedTypes>
+  <name>РасходПроизводством</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расход производством</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Договора</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.РасходПроизводство.Attribute.Договор</content>
+  <defaultForm>FilterCriterion.РасходПроизводством.Form.ФормаСписка</defaultForm>
+  <forms uuid="28c7d7c1-b808-49aa-b7a1-2b6c33a14006">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:FilterCriterion>

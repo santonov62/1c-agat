@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71a4cf94-5c5d-4d8e-bca2-2badafc0ffbe">
+  <name>РаспоряженияТД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Распоряжения ТД</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

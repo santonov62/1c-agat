@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6d50a70-5574-44aa-8bef-cc366121cf44">
+  <producedTypes>
+    <managerType typeId="65404643-d55b-4436-a463-968cd6a40819" valueTypeId="4b24bea0-162d-4ac8-a545-f615f108c91a"/>
+    <valueManagerType typeId="c201c2be-99ad-46c5-b322-e8585b460072" valueTypeId="452813ad-afd0-449b-92ad-d4d05eabdd22"/>
+    <valueKeyType typeId="cfef46f2-3cb2-40a2-8f48-ded3a376f89a" valueTypeId="c12aa84c-88ff-42e9-9496-fd4fa8a1d891"/>
+  </producedTypes>
+  <name>ПутьХранилищаФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путь хранилища файлов</value>
+  </synonym>
+  <dataHistory>Use</dataHistory>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ОбщиеНастройки</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

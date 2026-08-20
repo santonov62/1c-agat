@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<planner:PlannerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:planner="http://g5.1c.ru/v8/dt/planner/model">
+  <newItemsTextType>FormattedString</newItemsTextType>
+  <alignItemBoundariesByTimeScale>true</alignItemBoundariesByTimeScale>
+  <showWrappedTimeScaleHeaders>true</showWrappedTimeScaleHeaders>
+  <showCurrentDate>true</showCurrentDate>
+  <wrappedTimeScaleHeaderFormat>
+    <key>#</key>
+    <value>DLF=&quot;DD&quot;</value>
+  </wrappedTimeScaleHeaderFormat>
+  <wrappedTimeScaleHeaderFormat>
+    <key>ru</key>
+    <value>DLF=&quot;DD&quot;</value>
+  </wrappedTimeScaleHeaderFormat>
+  <periodicVariantRepetition>4</periodicVariantRepetition>
+  <periodicVariantUnit>Day</periodicVariantUnit>
+  <border xsi:type="core:BorderDef">
+    <style>Single</style>
+    <width>1</width>
+  </border>
+  <font xsi:type="core:AutoFont"/>
+  <beginOfRepresentationPeriod>0001-01-01T00:00:00</beginOfRepresentationPeriod>
+  <endOfRepresentationPeriod>0001-01-01T00:00:00</endOfRepresentationPeriod>
+  <itemsTimeRepresentation>BeginAndEndTime</itemsTimeRepresentation>
+  <timeScale>
+    <levels>
+      <measure>Day</measure>
+      <interval>30</interval>
+      <show>true</show>
+      <line>
+        <width>1</width>
+        <style>Solid</style>
+      </line>
+      <dayFormatRule>MonthDayWeekDay</dayFormatRule>
+      <format>
+        <key>#</key>
+        <value>DF=&quot;dd.MM&quot;</value>
+      </format>
+      <format>
+        <key>ru</key>
+        <value>DF=&quot;dd.MM&quot;</value>
+      </format>
+      <labels/>
+      <showPereodicalLabels>true</showPereodicalLabels>
+    </levels>
+  </timeScale>
+  <dimensions>
+    <value xsi:type="core:StringValue">
+      <value>Catalog.ЗадачиПланировщик.EmptyRef</value>
+    </value>
+    <font xsi:type="core:AutoFont"/>
+    <items>
+      <value xsi:type="core:StringValue">
+        <value>Catalog.ЗадачиПланировщик.EmptyRef</value>
+      </value>
+      <font xsi:type="core:AutoFont"/>
+      <textFormatted>true</textFormatted>
+    </items>
+  </dimensions>
+  <periods>
+    <begin>2026-08-01T00:00:00</begin>
+    <end>2026-08-01T23:59:59</end>
+  </periods>
+  <minRowHeight>2</minRowHeight>
+</planner:PlannerSettings>

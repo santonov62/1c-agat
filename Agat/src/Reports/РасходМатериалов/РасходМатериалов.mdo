@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba6c8a27-f592-4055-9d5b-26a7a967e547">
+  <producedTypes>
+    <objectType typeId="d11c104f-1d3e-43aa-8e9f-a3c85af8880e" valueTypeId="9e357655-fb3f-469c-aae2-0f7509e6f120"/>
+    <managerType typeId="70b93aed-ca90-46f0-96e9-00e7da6f8a02" valueTypeId="a2e4ef2d-0feb-4f0f-869f-8b5e5cbc9e25"/>
+  </producedTypes>
+  <name>РасходМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расход материалов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РасходМатериалов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0ca9d444-c996-49c9-950c-69ccfd9629be">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

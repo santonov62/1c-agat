@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce1ec005-9779-4dbb-b6ea-88ecf9f892c8">
+  <name>ДоговораСубподряда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договора субподряда</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

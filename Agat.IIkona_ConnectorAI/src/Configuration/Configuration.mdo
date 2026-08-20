@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="06111fb2-2b68-4105-91f0-4397773a0c52">
+  <name>IIkona_ConnectorAI</name>
+  <synonym>
+    <key>ru</key>
+    <value>I ikona connector AI</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <commandInterface>Extended</commandInterface>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="168da8ca-5532-47b4-ac59-e6033c5b953e"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4c9d25f8-2a2f-4090-8485-edb5dfbc074b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="bf1b6ad6-bbe2-477c-838a-b2e9cfc533fe"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="2f8ed8aa-882b-4930-ae56-21f019cd7561"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="f817c02d-994c-4524-a0b6-49efe4514718"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="fba041e6-9700-4576-941a-bbbbb1b9c790"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="39412390-0f7d-4bf9-b183-97e37581688e"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Расш1_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.25</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.Расш1_ОсновнаяРоль</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="a4fae59d-84a9-43e3-9886-ce1fc9575fcb" extendedConfigurationObject="05b75cd8-cd7c-4cf4-adc7-2751924cb1f4">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.Расш1_ОсновнаяРоль</roles>
+</mdclass:Configuration>

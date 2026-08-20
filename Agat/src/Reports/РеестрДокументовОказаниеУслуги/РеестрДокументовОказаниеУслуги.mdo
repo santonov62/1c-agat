@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94a65400-e59c-4c48-b6d5-3a14cf1da312">
+  <producedTypes>
+    <objectType typeId="6e65609f-5cac-4197-942b-ed4a09e66072" valueTypeId="6c24c900-3bc3-490a-8424-a45a827eb076"/>
+    <managerType typeId="7e256b17-a4e7-41c4-a01d-c54ba21eeb3e" valueTypeId="c359f722-91eb-45ec-8446-8140590fcc3a"/>
+  </producedTypes>
+  <name>РеестрДокументовОказаниеУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр документов оказание услуги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.РеестрДокументовОказаниеУслуги.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.РеестрДокументовОказаниеУслуги.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Список оказанных услуг</value>
+  </extendedPresentation>
+  <forms uuid="f762422c-732a-4acc-8695-7a16864bd248">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="9abdb8a2-06d9-4256-b698-5cd4d0fbc73d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

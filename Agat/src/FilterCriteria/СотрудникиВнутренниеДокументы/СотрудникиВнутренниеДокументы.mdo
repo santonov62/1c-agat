@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f52ddc92-a9ab-4baf-8934-b697859ecdd3">
+  <producedTypes>
+    <listType typeId="199cbc94-e811-4d4d-8d27-9c0655d5e6c5" valueTypeId="5b4376aa-2d3c-43cf-91e2-fe753d467b39"/>
+    <managerType typeId="30413121-3162-4e1b-bf06-128fcb2be15f" valueTypeId="e09ce30b-c4de-44ec-aa80-d19623c6fe84"/>
+  </producedTypes>
+  <name>СотрудникиВнутренниеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внутренние документы</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Сотрудники</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Catalog.ВнутренниеДокументы.Attribute.ОтветственныйИсполнитель</content>
+  <defaultForm>FilterCriterion.СотрудникиВнутренниеДокументы.Form.ФормаСписка</defaultForm>
+  <forms uuid="56396765-9b0c-4337-9c4d-ad3c3e44e08b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:FilterCriterion>

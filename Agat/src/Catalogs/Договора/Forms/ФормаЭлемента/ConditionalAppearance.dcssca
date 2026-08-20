@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConditionalAppearance xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+	<item>
+		<selection>
+			<item>
+				<field>ПланГрафикСрокИсполнения</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ПланГрафик.СрокИсполнения</left>
+				<comparisonType>LessOrEqual</comparisonType>
+				<right xsi:type="v8:StandardBeginningDate">
+					<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+				</right>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ПланГрафик.ДатаИсполнения</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ПланГрафик.Исполнитель</left>
+				<comparisonType>Filled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">#FFC7C2</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ПланГрафикНиаменованиеРабот</field>
+			</item>
+			<item>
+				<field>ПланГрафикИсполнитель</field>
+			</item>
+			<item>
+				<field>ПланГрафикДатаНачала</field>
+			</item>
+			<item>
+				<field>ПланГрафикСрокИсполнения</field>
+			</item>
+			<item>
+				<field>ПланГрафикДатаИсполнения</field>
+			</item>
+			<item>
+				<field>ПланГрафикН</field>
+			</item>
+			<item>
+				<field>ПланГрафикПримечание</field>
+			</item>
+			<item>
+				<field>ПланГрафикИзделие</field>
+			</item>
+			<item>
+				<field>ПланГрафикНаименованиеГрафик</field>
+			</item>
+			<item>
+				<field>ПланГрафикРасширениеФайла</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ПланГрафик.Исполнитель</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<use>false</use>
+				<left xsi:type="dcscor:Field">Объект.ПланГрафик.СрокИсполнения</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<use>false</use>
+				<left xsi:type="dcscor:Field">Объект.ПланГрафик.ДатаНачала</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ПланГрафик.ДатаИсполнения</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">#EFEFEF</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Шрифт</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ПланГрафикСрокИсполнения</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ПланГрафик.СрокИсполнения</left>
+				<comparisonType>Greater</comparisonType>
+				<right xsi:type="v8:StandardBeginningDate">
+					<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+				</right>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ПланГрафик.СрокИсполнения</left>
+				<comparisonType>Less</comparisonType>
+				<right xsi:type="v8:StandardBeginningDate">
+					<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfNextMonth</v8:variant>
+				</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">#FFE36B</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ПланГрафикДатаНачала</field>
+			</item>
+			<item>
+				<field>ПланГрафикСрокИсполнения</field>
+			</item>
+			<item>
+				<use>false</use>
+				<field>ПланГрафикДатаИсполнения</field>
+			</item>
+			<item>
+				<field>ПланГрафикН</field>
+			</item>
+			<item>
+				<use>false</use>
+				<field>ПланГрафикНомерСтроки</field>
+			</item>
+			<item>
+				<field>ПланГрафикНаименованиеГрафик</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ПланГрафик.Исполнитель</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ПланГрафик.ДатаИсполнения</left>
+				<comparisonType>Filled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">#E1E1E1</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Доступность</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ПланГрафикИзделие</field>
+			</item>
+			<item>
+				<field>ПланГрафикНаименованиеГрафик</field>
+			</item>
+			<item>
+				<field>ПланГрафикНиаменованиеРабот</field>
+			</item>
+			<item>
+				<field>ПланГрафикИсполнитель</field>
+			</item>
+			<item>
+				<field>ПланГрафикДатаНачала</field>
+			</item>
+			<item>
+				<field>ПланГрафикСрокИсполнения</field>
+			</item>
+			<item>
+				<field>ПланГрафикДатаИсполнения</field>
+			</item>
+			<item>
+				<field>ПланГрафикПримечание</field>
+			</item>
+			<item>
+				<field>ПланГрафикРасширениеФайла</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ПланГрафик.Исполнитель</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ПланГрафик.ДатаИсполнения</left>
+				<comparisonType>Filled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">style:FieldTextColor</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветТекста</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">#D98731</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Шрифт</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+			</dcscor:item>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:use>false</dcscor:use>
+				<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ПланГрафикН</field>
+			</item>
+			<item>
+				<field>ПланГрафикДатаИсполнения</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ПланГрафик.Н</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:boolean">true</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">#E0F0FF</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>РаспоряжениеСрокИсполнения</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Распоряжение.СрокИсполнения</left>
+				<comparisonType>LessOrEqual</comparisonType>
+				<right xsi:type="v8:StandardBeginningDate">
+					<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+				</right>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Распоряжение.ДатаИсполнения</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Распоряжение.Исполнитель</left>
+				<comparisonType>Filled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">#FFC8C7</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>РаспоряжениеСрокИсполнения</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Распоряжение.СрокИсполнения</left>
+				<comparisonType>Greater</comparisonType>
+				<right xsi:type="v8:StandardBeginningDate">
+					<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+				</right>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Распоряжение.СрокИсполнения</left>
+				<comparisonType>LessOrEqual</comparisonType>
+				<right xsi:type="v8:StandardBeginningDate">
+					<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfNextMonth</v8:variant>
+				</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">#FFE67B</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>РаспоряжениеДатаИсполнения</field>
+			</item>
+			<item>
+				<field>РаспоряжениеН</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Распоряжение.Н</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:boolean">true</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">#D9EEFF</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>РаспоряжениеНаименованиеРабот</field>
+			</item>
+			<item>
+				<field>РаспоряжениеИсполнитель</field>
+			</item>
+			<item>
+				<field>РаспоряжениеДатаНачала</field>
+			</item>
+			<item>
+				<field>РаспоряжениеСрокИсполнения</field>
+			</item>
+			<item>
+				<field>РаспоряжениеДатаИсполнения</field>
+			</item>
+			<item>
+				<field>РаспоряжениеН</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Распоряжение.Исполнитель</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Распоряжение.ДатаИсполнения</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">#DBDBDB</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>РаспоряжениеИзделие</field>
+			</item>
+			<item>
+				<field>РаспоряжениеНаименованиеРабот</field>
+			</item>
+			<item>
+				<field>РаспоряжениеИсполнитель</field>
+			</item>
+			<item>
+				<field>РаспоряжениеДатаНачала</field>
+			</item>
+			<item>
+				<field>РаспоряжениеСрокИсполнения</field>
+			</item>
+			<item>
+				<field>РаспоряжениеДатаИсполнения</field>
+			</item>
+			<item>
+				<field>РаспоряжениеПримечание</field>
+			</item>
+			<item>
+				<field>РаспоряжениеНаименованиеГрафик</field>
+			</item>
+			<item>
+				<field>РаспоряжениеРасширениеФайла</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Распоряжение.Исполнитель</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Распоряжение.ДатаИсполнения</left>
+				<comparisonType>Filled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">style:FieldTextColor</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветТекста</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">#D98727</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Шрифт</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>РаспоряжениеН</field>
+			</item>
+			<item>
+				<field>РаспоряжениеДатаНачала</field>
+			</item>
+			<item>
+				<field>РаспоряжениеСрокИсполнения</field>
+			</item>
+			<item>
+				<field>РаспоряжениеНаименованиеГрафик</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Распоряжение.Исполнитель</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Распоряжение.ДатаИсполнения</left>
+				<comparisonType>Filled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ПланГрафикН</field>
+			</item>
+			<item>
+				<field>ПланГрафикНаименованиеГрафик</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ПланГрафик.Исполнитель</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ПланГрафик.ДатаИсполнения</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ИсполнениеДоговораПрогнозОплаты</field>
+			</item>
+			<item>
+				<field>ИсполнениеДоговораДатаДокумента</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.ИсполнениеДоговора.ПрогнозОплаты</left>
+				<comparisonType>Filled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">style:ImportantColor</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+</ConditionalAppearance>

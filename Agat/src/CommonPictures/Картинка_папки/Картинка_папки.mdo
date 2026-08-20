@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd77fa2c-2139-4845-9ac8-b4cc78cfd8cf">
+  <name>Картинка_папки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Картинка папки</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

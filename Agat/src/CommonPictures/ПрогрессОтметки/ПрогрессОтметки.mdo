@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c05f030c-5f68-483a-9749-c1f954a34d6a">
+  <name>ПрогрессОтметки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прогресс отметки</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

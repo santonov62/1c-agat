@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12560c9e-54ae-458c-88ad-8833afad61c2">
+  <producedTypes>
+    <listType typeId="7ff805b5-2b7e-4e26-bafd-0bdfd10ea3bb" valueTypeId="a1add66b-9669-4ca6-977d-b0a33a3be5b7"/>
+    <managerType typeId="d33fabd1-6879-4fcd-99e6-b19b28a240e4" valueTypeId="e73bfd3e-e57a-4e04-9d69-8b65eabd9ada"/>
+  </producedTypes>
+  <name>ИсходящаяКорреспонденция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исходящая корреспонденция</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Договора</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Catalog.ИсходящиеДокументы.Attribute.НомерДоговора</content>
+  <defaultForm>FilterCriterion.ИсходящаяКорреспонденция.Form.ФормаСписка</defaultForm>
+  <forms uuid="c45dc6ca-27ba-4875-9741-c1a9dc076e2f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:FilterCriterion>
