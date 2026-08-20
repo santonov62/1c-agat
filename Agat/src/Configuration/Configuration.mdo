@@ -145,6 +145,10 @@
   <commonModules>CommonModule.РаботаСФайламиСервер</commonModules>
   <commonModules>CommonModule.ЗагрузкаДанныхСервер</commonModules>
   <commonModules>CommonModule.ВременноеХранилище</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <exchangePlans>ExchangePlan.Филиалы</exchangePlans>
   <exchangePlans>ExchangePlan.Отделения</exchangePlans>
   <scheduledJobs>ScheduledJob.ОбновлениеИндекса</scheduledJobs>
