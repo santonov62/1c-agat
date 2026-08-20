@@ -149,6 +149,16 @@
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.ДлительныеОперации</commonModules>
+  <commonModules>CommonModule.ДлительныеОперацииКлиент</commonModules>
+  <commonModules>CommonModule.ДлительныеОперацииКлиентСервер</commonModules>
+  <commonModules>CommonModule.ФайловаяСистема</commonModules>
+  <commonModules>CommonModule.ФайловаяСистемаКлиент</commonModules>
+  <commonModules>CommonModule.ФайловаяСистемаКлиентСервер</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыКлиент</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
+  <commonModules>CommonModule.Пользователи</commonModules>
+  <commonModules>CommonModule.ПользователиКлиентСервер</commonModules>
   <exchangePlans>ExchangePlan.Филиалы</exchangePlans>
   <exchangePlans>ExchangePlan.Отделения</exchangePlans>
   <scheduledJobs>ScheduledJob.ОбновлениеИндекса</scheduledJobs>
